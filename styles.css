@@ -3,8 +3,8 @@ body{
   }
 
 .image{
-    height: 100px;
-    width: 100px;
+    height: 200px;
+    width: 200px;
 }
 
-/* La imagen queda mal ubicada, se ve incrustada en la mitad del texto sin ningun tipo de diseño. También genera un espacio de 100 pixeles entre una linea del parrafo y otra */
+/* La imagen queda mejor ubicada que la anterior, sin embargo genera un espacio a su derecha de 200 px y hace un hueco muy feo dentro del flujo de la página. */
