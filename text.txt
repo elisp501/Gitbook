@@ -1,0 +1,5 @@
+EJERCICIO 8 - Entrar en Wikipedia.org y:
+
+    Los modulos de idioma están puestos dentro de un div (class="central-featured-lang"), que está dentro de otro div (class="central-featured"), dentro del body. Cada div contiene una etiqueta a que lleva a la página con ese lenguaje.
+
+    La caja de búsqueda tiene un width: 540px; y un height: 78px; el botón tiene un margin: 1.6px 0; 
