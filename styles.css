@@ -1,10 +1,18 @@
-body{
-    font-family: Arial, Helvetica, sans-serif;
-  }
-
-.image{
-    height: 200px;
-    width: 200px;
+*{
+    box-sizing: border-box;
 }
 
-/* La imagen queda mejor ubicada que la anterior, sin embargo genera un espacio a su derecha de 200 px y hace un hueco muy feo dentro del flujo de la página. */
+.img{
+    height: 100px;
+    width: 100px;
+    margin: auto;
+}
+
+.img img{
+    height: 100px;
+    width: 100px;
+    padding: 10px;
+    border: black 5px solid;
+}
+
+/*Con el box-sizing: border-box lo que hace es incluir los valores que se le agregaron como padding y border dentro del tamaño original de la caja que era 100x100, osea que al agregarle los valores extra, la caja se hace más grande, cuando se le adjudica el box-sizing: border-box, la caja vuelve a su tamaño original.*/
