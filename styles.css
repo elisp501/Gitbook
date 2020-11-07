@@ -1,18 +1,18 @@
-*{
-    box-sizing: border-box;
-}
-
-.img{
+.container {
+    border: 1px solid deeppink;
+  }
+  .col {
+    display: inline-block;
+    width: 300px;
+    vertical-align: top;
+  }
+  .container--1 {
     height: 100px;
-    width: 100px;
-    margin: auto;
-}
-
-.img img{
-    height: 100px;
-    width: 100px;
-    padding: 10px;
-    border: black 5px solid;
-}
-
-/*Con el box-sizing: border-box lo que hace es incluir los valores que se le agregaron como padding y border dentro del tamaño original de la caja que era 100x100, osea que al agregarle los valores extra, la caja se hace más grande, cuando se le adjudica el box-sizing: border-box, la caja vuelve a su tamaño original.*/
+    width: 200px;
+    overflow: hidden;
+  }
+  .container--2 {
+    height: 200px;
+    overflow: scroll;
+    
+  }
