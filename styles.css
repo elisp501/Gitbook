@@ -1,0 +1,16 @@
+/* De esta manera se le agrega color al texto y a los bullet points, pero no a los links que es lo que queremos hacer. */
+.links {
+    color: red;
+}
+
+/*Para cambiarle el color a los links se puede hacer de dos maneras, se le agrega una clase a la lista (ul) y desde el css se vincula la clase y el anchor dentro de la clase y se le dan los atributos*/
+
+.link-color a{
+    color: red;
+}
+
+/*La otra manera es crear una clase y ponersela a cada una de las etiquetas de a, después desde el css se vincula la clase y se le dan los atributos*/
+
+.a-color{
+    color: red;
+}
