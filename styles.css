@@ -6,93 +6,81 @@
   padding: 0px;
 }
 
-body{
-  max-width: 960px;
+header{
   display: flex;
-  flex-direction: column;
-}
-
-.container{
+  background-color: rgb(68, 68, 68);
   width: 100vw;
+  align-items: center;
+  justify-content: center;
+  height: 50px;
 }
 
-.box{
-  display:flex;
-  flex-direction: row;
-  width: 70%;
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 600px;
 }
 
-.img{
-  height: 100px;
-  width: 100px;
-  background-image: url(./images/profile.jpg);
-  background-position: center;
-  background-size: cover;
-  border-radius: 5px;
-  flex-basis: 100px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  margin: 20px;
-}
 
-.txt1-box{
-  /* border: 1px black solid; */
-  width: 50%;
-  margin: 20px 20px 20px 0px;
-}
-
-.font1{
-  color: rgb(77, 77, 77);
-  margin: 5px 0px;
-}
-
-.font2{
-  color: rgb(151, 151, 151);
-}
-
-.btn{
-  height: 40px;
-  padding: 5px 15px;
-  margin-top: 12px;
-  border-radius: 5px;
-}
-
-.btn1{
-  background-color: rgb(211, 211, 211);
+.mi-blog h2{
+  font-size: 20px;
   color: white;
 }
 
-.btn2{
-  border: 2px solid rgb(211, 211, 211);
-  color: rgb(211, 211, 211);
-}
-
-.txt2-box{
-  flex-basis: 300px;
-  flex-shrink: 0;
-  flex-grow: 0;
-  margin: 20px;
-  text-align: right;
+.nav{
   display: flex;
-  justify-content: flex-end;
+  flex-direction: row;
+  width: 300px;
+  justify-content: space-around;
 }
 
-.txt2{
-  margin-top: 5px;
+.nav li{
+  list-style: none;
+  color: white;
 }
 
-.average{
-  height: 50px;
-  width: 50px;
-  background-color: rgb(211, 211, 211);
-  border-radius: 12px;
-  display: flex;
+body{
+  display:flex;
+  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  margin-left: 10px;
 }
 
-.ver-comentarios{
+main{
+  min-height: 73vh;
+  max-width: 600px;
+  margin: 20px 0px;
+}
+
+.name-date{
+  padding: 20px 0px;
+  flex-direction: row;
+  display: flex;
+  justify-content: space-between;
+  color: gray;
+}
+
+h1{
+  font-size: 24px;
+  color: rgb(85, 85, 85);
+  padding-bottom: 20px;
+}
+
+.text p{
+  color: gray;
+}
+
+footer{
+  display: flex;
+  background-color: rgb(184, 184, 184);
+  width: 100vw;
+  align-items: center;
+  justify-content: left;
+  height: 50px;
+  color:rgb(80, 80, 80);
+}
+
+footer p{
+  margin-left: 20px;
   font-size: 12px;
-  color: rgb(211, 211, 211);
 }
