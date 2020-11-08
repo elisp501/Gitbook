@@ -6,31 +6,13 @@
   padding: 0px;
 }
 
-.div1{
-  width: 500px;
-  height: 500px;
-  background-color: rgb(255, 255, 160);
-  position: absolute;
-  padding: 40px;
-  border: 2px solid;
+body{
+  width: 60%;
 }
 
-.div2{
-  width: 300px;
-  height: 300px;
-  background-color: rgb(124, 248, 161);
-  position:absolute;
-  padding: 75px;
-  left: 100px;
-  top: 100px;
-}
-
-.div3{
-  width: 150px;
-  height: 150px;
-  background-color: rgb(124, 182, 248);
-  position:absolute;
-  border: 20px dotted;
-  left: 180px;
-  top: 180px;
+.cookies{
+  height: 100px;
+  background-color: rgb(255, 255, 111);
+  position:fixed;
+  bottom:0px;
 }
