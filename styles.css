@@ -6,7 +6,36 @@
   padding: 0px;
 }
 
-ul li{
-  display:inline;
-  padding-right: 12px;
+.div-padre{
+  border: 1px black solid;
+}
+
+.div1{
+  width:300px;
+  height: 300px;
+  margin: 40px;
+  background-color: rgb(67, 67, 233);
+  position: relative;
+  left: 100px;
+  top:50px;
+}
+
+.div2{
+  width:300px;
+  height: 300px;
+  margin: 40px;
+  background-color: rgb(67, 139, 233);
+  position: relative;
+  right: 150px;
+  bottom: 320px;
+}
+
+.div3{
+  width:300px;
+  height: 300px;
+  margin: 40px;
+  background-color: rgb(67, 233, 211);
+  position: relative;
+  left: 180px;
+  bottom: 240px;
 }
