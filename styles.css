@@ -5,10 +5,34 @@
 
 }
 
+/*------Header------*/
+
+header{
+  background-color: rgb(233, 233, 233);
+  padding: 0px 60px 0px 20px;
+}
+
+.header-items{
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between; 
+  align-items: center;
+  flex-grow: 1;
+}
+
+.header-items li{
+  display: flex;
+  color: rgb(82, 82, 82);
+}
+
+/*------Main------*/
+
 main{
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  flex-grow: 5;
 }
 
 h1{
@@ -28,4 +52,10 @@ h1{
 
 .news2{
   width: 50%;
+}
+
+footer{
+  background-color: rgb(233, 233, 233);
+  display:flex;
+  flex-grow: 1;
 }
