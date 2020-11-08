@@ -1,26 +1,70 @@
 *{
   font-family: Arial, Helvetica, sans-serif;
+  box-sizing: border-box;
 }
 
 .container{
   display: flex;
-  width: 500px;
-  height: 500px;
+  width: 600px;
+  height: 100vh;
   border: 1px black solid;
-  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
 .box{
-  background-color: rgb(176, 250, 225);
-  border: 1px rgb(53, 173, 157) solid;
-  display: inline-flex;
-  width: 50px;
-  height: 500px;
-  flex-direction: row;
-  align-items: center;
-  justify-content: center;
-  color: white;
-  
+  height: 200px;
+  width: 100px;
+  display: flex;
+
+  background-position: center;
+  background-size: cover;
+  /* border: 1px black solid; */
 }
 
-/*El eje principal es X*/
+.box1{
+  background-image: url(./images/img1.jpg);
+}
+
+.box2{
+  background-image: url(./images/img2.jpg);
+}
+
+.box3{
+  background-image: url(./images/img3.png);
+}
+
+.box4{
+  background-image: url(./images/img4.jpg);
+}
+
+.box5{
+  background-image: url(./images/img5.jpg);
+}
+
+.box6{
+  background-image: url(./images/img6.jpg);
+}
+
+.box7{
+  background-image: url(./images/img7.jpg);
+}
+
+.box8{
+  background-image: url(./images/img8.jpg);
+}
+
+.box9{
+  background-image: url(./images/img9.jpg);
+}
+
+.box10{
+  background-image: url(./images/img10.jpg);
+}
+
+.box11{
+  background-image: url(./images/img11.png);
+}
+
+.box12{
+  background-image: url(./images/img12.jpg);
+}
