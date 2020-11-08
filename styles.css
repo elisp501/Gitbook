@@ -6,22 +6,48 @@
   padding: 0px;
 }
 
-header{
-  background-color: rgb(142, 97, 247);
-  height: 90px;
-  width: 100%;
-  position: fixed;
-  z-index: 2;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: rgb(47, 14, 124)
+body {
+  margin: 2em;
+}
+.col {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  border: 1px dotted deeppink;
+  padding: 10px;
+  box-sizing: border-box;
+  margin-bottom: 4px;
+}
+.col__title {
+  font-size: 18px;
+  margin: 0 0 16px;
+
+}
+.box {
+  background: cyan;
+  width: 100px;
+  height: 100px;
+  opacity: .7;
+}
+​
+/* RELLENA CON TU CSS */
+.box--1 {
+  position: relative;
+  top: 20px;
 }
 
-main{
-  position: absolute;
-  top: 110px;
-  z-index: 1;
-  width: 60%;
-  margin-left: 20%;
+.box--2 {
+  transform: scale(1.5);
 }
+​
+.box--3 {
+  transform: rotate(60deg);
+}
+​
+.box--4 {
+  position: relative;
+  top: 20px;
+  transform: scale(1.5);
+  transform: rotate(60deg);
+}
+
