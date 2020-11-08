@@ -6,36 +6,22 @@
   padding: 0px;
 }
 
-.div-padre{
-  border: 1px black solid;
+header{
+  background-color: rgb(142, 97, 247);
+  height: 90px;
+  width: 100%;
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: rgb(47, 14, 124)
 }
 
-.div1{
-  width:300px;
-  height: 300px;
-  margin: 40px;
-  background-color: rgb(67, 67, 233);
-  position: relative;
-  left: 100px;
-  top:50px;
-}
-
-.div2{
-  width:300px;
-  height: 300px;
-  margin: 40px;
-  background-color: rgb(67, 139, 233);
-  position: relative;
-  right: 150px;
-  bottom: 320px;
-}
-
-.div3{
-  width:300px;
-  height: 300px;
-  margin: 40px;
-  background-color: rgb(67, 233, 211);
-  position: relative;
-  left: 180px;
-  bottom: 240px;
+main{
+  position: absolute;
+  top: 110px;
+  z-index: 1;
+  width: 60%;
+  margin-left: 20%;
 }
