@@ -1,18 +1,30 @@
-.container {
-    border: 1px solid deeppink;
+body {
+    margin: 10px 30px;
   }
   .col {
     display: inline-block;
-    width: 300px;
-    vertical-align: top;
+    width: 140px;
+    margin-right: 40px;
   }
-  .container--1 {
-    height: 100px;
-    width: 200px;
-    overflow: hidden;
+  h2 {
+    font-size: 18px;
+
   }
-  .container--2 {
-    height: 200px;
-    overflow: scroll;
-    
+  .box {
+    border: 1px solid deeppink;
+    background: cyan;
+    width: 160px;
+    height: 160px;
+  }
+  
+  .box--2 {
+    background-image: url(https://www.fillmurray.com/130/130);
+    background-repeat: no-repeat;
+    background-repeat: round;
+
+  }
+  .box--3 {
+    background-image: url(https://www.fillmurray.com/130/130);
+    background-repeat: no-repeat;
+    background-position: center;
   }
