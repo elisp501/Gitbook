@@ -1,5 +1,7 @@
-EJERCICIO 8 - Entrar en Wikipedia.org y:
+2. ¿Qué tamaño de fuente tengo que poner para que mi careto mida 50x50?
 
-    Los modulos de idioma están puestos dentro de un div (class="central-featured-lang"), que está dentro de otro div (class="central-featured"), dentro del body. Cada div contiene una etiqueta a que lleva a la página con ese lenguaje.
+8 pixeles.
 
-    La caja de búsqueda tiene un width: 540px; y un height: 78px; el botón tiene un margin: 1.6px 0; 
+3. ¿Y para que mida 200x200?
+
+32 pixeles
