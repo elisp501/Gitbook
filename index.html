@@ -10,44 +10,125 @@
 </head>
 
 <body>
-  <div class="box">
-    <div class="name-links">
-      <h1>Site name</h1>
+  <h1>Create an account</h1>
+  <h3>It's free and allways will be.</h3>
 
-      <nav>
-        <a href="#">Link1</a>
-        <a href="#">Link2</a>
-        <a href="#">Link3</a>
-      </nav>
-    </div>
-    <div class="main-aside">
-      <main>
-        <div class="title">
-          <h2>Main header here</h2>
-        </div>
-        <div class="text-image">
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est vero mollitia velit voluptate corporis
-            placeat,
-            itaque quod dignissimos nesciunt consectetur quo dolore sed exercitationem non nemo debitis perspiciatis.
-            Ad,
-            officia.Aliquam corporis magnam, laudantium voluptatibus libero maxime eius, quisquam commodi distinctio
-            tempora
-            cumque? Libero quae dolor veniam quia eveniet, molestias autem molestiae officia ipsa itaque harum </p>
-          <div class="square"></div>
-        </div>
-      </main>
-      <div class="aside">
-        <aside>
-          <h2>Related info</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia totam, suscipit aspernatur aut nemo
-            voluptas
-            temporibus eveniet, id eaque ea eum harum quisquam consectetur molestias, velit hic adipisci quis
-            doloremque?
-          </p>
-        </aside>
-      </div>
-    </div>
-  </div>
+    <form action="#">
+      <label for="first-name"></label>
+      <input type="text" name="first-name" id="first-name" placeholder="First name">
+      <label for="surname"></label>
+      <input type="text" name="surname" id="surname" placeholder="Surname">
+      <br></br>
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Email or mobile number">
+      <br></br>
+      <label for="email"></label>
+      <input type="email" name="email" id="email" placeholder="Re-enter email or mobile number">
+      <br></br>
+      <label for="password"></label>
+      <input type="password" name="password" id="password" placeholder="New password">
+      <br></br>
+      <h3>Birthday</h3>
+      <label for="day">Day</label>
+
+      <select name="day" id="day">
+        <option value="">1</option>
+        <option value="">2</option>
+        <option value="">3</option>
+        <option value="">4</option>
+        <option value="">5</option>
+        <option value="">6</option>
+        <option value="">7</option>
+        <option value="">8</option>
+        <option value="">9</option>
+        <option value="">10</option>
+        <option value="">11</option>
+        <option value="">12</option>
+        <option value="">13</option>
+        <option value="">14</option>
+        <option value="">15</option>
+        <option value="">16</option>
+        <option value="">17</option>
+        <option value="">18</option>
+        <option value="">19</option>
+        <option value="">20</option>
+        <option value="">21</option>
+        <option value="">22</option>
+        <option value="">23</option>
+        <option value="">24</option>
+        <option value="">25</option>
+        <option value="">26</option>
+        <option value="">27</option>
+        <option value="">28</option>
+        <option value="">29</option>
+        <option value="">30</option>
+        <option value="">31</option>
+      </select>
+      <label for="month">Month</label>
+      <select name="month" id="month">
+        <option value="">January</option>
+        <option value="">February</option>
+        <option value="">March</option>
+        <option value="">April</option>
+        <option value="">May</option>
+        <option value="">June</option>
+        <option value="">July</option>
+        <option value="">August</option>
+        <option value="">September</option>
+        <option value="">October</option>
+        <option value="">November</option>
+        <option value="">December</option>
+      </select>
+      <label for="month">Year</label>
+      <select name="year" id="year">
+        <option value="">2002</option>
+        <option value="">2001</option>
+        <option value="">1999</option>
+        <option value="">1998</option>
+        <option value="">1997</option>
+        <option value="">1996</option>
+        <option value="">1995</option>
+        <option value="">1994</option>
+        <option value="">1993</option>
+        <option value="">1992</option>
+        <option value="">1991</option>
+        <option value="">1990</option>
+        <option value="">1989</option>
+        <option value="">1988</option>
+        <option value="">1987</option>
+        <option value="">1986</option>
+        <option value="">1985</option>
+        <option value="">1984</option>
+        <option value="">1983</option>
+        <option value="">1982</option>
+        <option value="">1981</option>
+        <option value="">1980</option>
+        <option value="">1979</option>
+        <option value="">1978</option>
+        <option value="">1977</option>
+        <option value="">1976</option>
+        <option value="">1975</option>
+        <option value="">1974</option>
+        <option value="">1973</option>
+        <option value="">1972</option>
+        <option value="">1971</option>
+        <option value="">1970</option>
+        </select>
+        <p>Why do I need to provide my date of birth?</p>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender">
+        <p>By clicking Create an account, you agree to our Terms and that you have read our Data Policy, including our Cookie Use.</p>
+        <label for="height">Height in cm</label>
+        <input type="number" id="height" name="height" value="150" pattern="[50-250]{1,3}";>
+        <br></br>
+        <label for="profile">Write a comment about your profile.</label>
+        <br>
+        <textarea name="profile" id="profile" cols="30" rows="10"></textarea>
+        <br></br>
+        <button>Create an account</button>
+    </form>
 </body>
 
 </html>
