@@ -4,25 +4,15 @@
   padding: 0px;
 }
 
-.container {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 50px 100px 50px;
-  grid-template-areas: "header header" "main aside" "footer footer";
-  gap: 5px;
+body{
+  font-size: 20px;
+  color: white;
 }
-.item {
-  background: #89ece1;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+
+.row{
+  height: 100px;
 }
-.item--header {
-  grid-column: span 2;
-}
-.item--main {}
-.item--aside {}
-.item--footer {
-  grid-area: footer;
-  grid-column: span 2;
+
+.row-main{
+  height: 300px;
 }
