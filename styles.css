@@ -4,16 +4,11 @@
 }
 
 body{
-  font-size: 20px;
   color: white;
-
 }
 
-.row{
-  height: 50px;
+header{
+  height: 40vh;
 }
 
-.cajita{
-  border: 10px solid white;
-}
 
