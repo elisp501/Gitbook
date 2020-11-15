@@ -1,7 +1,26 @@
-2. ¿Qué tamaño de fuente tengo que poner para que mi careto mida 50x50?
+¿Cuáles son los breakpoints que nos ofrece Bootstrap? 
 
-8 pixeles.
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
 
-3. ¿Y para que mida 200x200?
+// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
 
-32 pixeles
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+
+¿Qué clase tendrá un elemento que ocupe 2 columnas en el breakpoint Small?
+col-sm-2
+
+¿Qué clase tendrá un elemento que ocupe 6 columnas en el breakpoint Large?
+col-lg-6
+
+¿Qué clase tendrá un elemento que ocupe 11 columnas en el breakpoint Extra Small?
+col-xs-11
